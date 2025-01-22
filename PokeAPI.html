@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PokeAPI</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="overall-container">
+            <div id="left-col">
+                <h1>Search for Pokémon Name or ID</h1>
+                <div id="search-section">
+                    <input type="text" id="search-input" placeholder="" required>
+                    <img src="search-icon.svg" alt="Search Icon" id="search-icon-image"/>
+                    <button id="search-button">SEARCH</button>
+                </div>
+                <div id="display">
+                    <h1><span id="pokemon-name">POKEMON</span> <span id="pokemon-id">#1</span></h1>
+                    <span class="metastats-text">Weight: <span id="weight">69</span></span>
+                    <span class="metastats-text">Height: <span id="height">7</span></span>
+                    <img id="sprite" src="bulbasaur.svg" alt="Pokemon Sprite Image">
+                    <div id="types">
+                        <div id="grass" class="type-text">GRASS</div>
+                        <div id="poison" class="type-text">POISON</div>
+                    </div>
+                </div>
+            </div>
+            <div id="stats-container">
+                <div id="stats-display">
+                    <div id="stats-title">
+                        <h1 id="base-txt">BASE</h1>
+                        <h1 id="stats-txt">STATS</h1>
+                    </div>
+                    <div id="health-stat" class="stat">
+                        <span>HP:</span>
+                        <span id="hp" class="stat-text" >45</span>
+                        <hr>
+                    </div>
+                    <div id="attack-stat" class="stat">
+                        <span>Attack:</span>
+                        <span id="attack" class="stat-text">49</span>
+                        <hr>
+                    </div>
+                    <div id="defence-stat" class="stat">
+                        <span>Defence:</span>
+                        <span id="defence" class="stat-text">49</span>
+                        <hr>
+                    </div>
+                    <div id="spattack-stat" class="stat">
+                        <span>Sp. Attack:</span>
+                        <span id="special-attack" class="stat-text">65</span>
+                        <hr>
+                    </div>
+                    <div id="spdefence-stat" class="stat">
+                        <span>Sp. Defence:</span>
+                        <span id="special-defence" class="stat-text">65</span>
+                        <hr>
+                    </div>
+                    <div id="speed-stat" class="stat">
+                        <span>Speed:</span>
+                        <span id="speed" class="stat-text">45</span>
+                    </div>
+                </div>
+                <img id="pokemon-image" src="pokemon-logo.svg" alt="Pokemon Logo Image">
+            </div>
+        </div>
+    </body>
+</html>
