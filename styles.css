@@ -115,8 +115,8 @@ h1 {
     flex-flow: column nowrap;
     position: relative;
     gap: 16px;
-    left: 540px;
-    top: -404px;
+    left: 38em;
+    top: -26em;
 }
 
 .type-text {
@@ -172,7 +172,7 @@ h1 {
 .stat-text {
     align-self: center;
     position: absolute;
-    left: 1280px;
+    left: 1420px; 
 }
 
 .stat {
